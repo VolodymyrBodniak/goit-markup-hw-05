@@ -245,8 +245,7 @@ button {
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   color: var(--white);
   background-color: var(--primery-brand);
@@ -260,7 +259,6 @@ button {
 .button:hover,
 .button:focus {
   background-color: var(--pressed);
-  color: var(--white);
   border-color: transparent;
   outline: none;
 }
@@ -282,6 +280,7 @@ button {
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -458,7 +457,6 @@ button {
 
 .customers-link:hover,
 .customers-link:focus {
-  color: var(--pressed);
   border-color: var(--pressed);
 }
 
